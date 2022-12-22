@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.crud</groupId>
 	<artifactId>spring_boot_aws_github_cicd</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>spring_boot_aws_github_cicd</name>
 	<description>Demo project for Spring Boot and github/aws CICD</description>
 	<properties>
@@ -36,6 +36,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>spring_boot_aws_github_cicd</finalName>
 	</build>
 
 </project>
